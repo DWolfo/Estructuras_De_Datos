@@ -1,0 +1,32 @@
+
+package eva1_1_stack;
+
+/**
+ *
+ * @author Daniel
+ */
+public class EVA1_1_STACK {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+         A();
+         System.out.println("RETOMA EJECUCION Main");
+          
+    }
+    
+    public static void A(){
+            B();
+            System.out.println("RETOMA EJECUCION A");
+    }
+    
+    public static void B(){
+        System.out.println("INICIA B");
+            int i = 5;
+            double d = 5.5;
+            System.out.println("RETOMA EJECUCION A");
+            System.out.println("TERMINA B");
+    }
+    
+}
